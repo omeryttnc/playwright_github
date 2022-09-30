@@ -21,7 +21,7 @@ test.describe("navigation", () => {
 test('login testi', async ({ page }) => {
     await page.goto('https://demoqa.com/elements');
 
-    await expect(page).toHaveTitle('ToolsQlA');
+    await expect(page).toHaveTitle('ToolsQA');
     await expect(page).toHaveURL('https://demoqa.com/elements');
 
     const sideBar_textbox = page.locator("(//li[@id='item-0'])[1]");
